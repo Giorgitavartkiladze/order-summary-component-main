@@ -1,0 +1,134 @@
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+
+
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.card {
+    max-width: 370px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.345);
+
+}
+
+.card img {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.content-conteiner {
+    padding: 25px;
+    color: hsl(223, 47%, 23%);
+
+
+}
+
+
+
+
+.card h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.p-conteiner {
+    text-align: center;
+}
+
+.change-plan-container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: hsl(228, 100%, 98%);
+    border-radius: 10px;
+
+}
+
+
+.plan-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    font-size: 14px;
+    gap: 5px;
+
+
+}
+
+.plan-p {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+
+}
+
+
+
+.price-p {
+    color: hsl(224, 23%, 55%);
+    margin: 0px;
+
+
+
+
+}
+
+.change-plan-container a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 650;
+    margin-left: auto;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+}
+
+.payment-conteiner {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px;
+    box-shadow: 10px 10px 10px hsla(245, 75%, 52%, 0.271);
+    border: none;
+
+}
+
+
+.cancel-order {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
